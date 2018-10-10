@@ -1,0 +1,22 @@
+[INFO  - 2018-09-30T03:10:42.572Z] GhostDriver - Main - running on port 60501
+[INFO  - 2018-09-30T03:10:43.444Z] Session [6ae850e0-c45e-11e8-ab6e-dd3f6fcf91d9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-09-30T03:10:43.445Z] Session [6ae850e0-c45e-11e8-ab6e-dd3f6fcf91d9] - page.customHeaders:  - {}
+[INFO  - 2018-09-30T03:10:43.445Z] Session [6ae850e0-c45e-11e8-ab6e-dd3f6fcf91d9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-09-30T03:10:43.445Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6ae850e0-c45e-11e8-ab6e-dd3f6fcf91d9
+[ERROR - 2018-09-30T03:10:46.827Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1538277046810
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-30T03:10:51.231Z] Session [6ae850e0-c45e-11e8-ab6e-dd3f6fcf91d9] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-09-30T03:10:51.231Z] Session [6ae850e0-c45e-11e8-ab6e-dd3f6fcf91d9] - page.onError - stack:
+  e (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+  value (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+  value (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+  e (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+  (anonymous function) (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+  (anonymous function) (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+  o (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+  (anonymous function) (https://s1.hdslb.com/bfs/seed/jinkela/short/report/log-reporter.js:1)
+
+  phantomjs://platform/console++.js:263 in error
